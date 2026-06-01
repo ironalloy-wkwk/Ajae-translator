@@ -7,9 +7,9 @@ st.set_page_config(page_title="AI 아재투 변환기", page_icon="👴", layout
 
 # 2. 구글 AI Studio에서 발급받은 API 키를 여기에 입력하세요!
 # (무료로 발급 가능합니다)
-GEMINI_API_KEY = ""
+GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
 
-st.title("👴 잭슨아재체 도우미")
+st.title("👴 휴먼틀딱체 도우미")
 st.caption("제미나이 AI가 문맥을 파악해 실시간으로 완벽한 아재 톤을 구사합니다;; 허허;;")
 st.markdown("---")
 
