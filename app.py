@@ -34,7 +34,7 @@ if st.button("✨ 아재 톤으로 변환하기,,,!!", use_container_width=True)
                 
                 # 가성비 최고 + 속도 광속인 gemini-2.5-flash 모델 사용
                 response = client.models.generate_content(
-                    model='gemini-1.5-flash',
+                    model='gemini-2.5-flash',
                     contents=user_input,
                     config=types.GenerateContentConfig(
                         system_instruction=(
